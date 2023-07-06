@@ -1,0 +1,23 @@
+<mat-drawer-container>
+  <mat-drawer #drawer mode="side">
+    <nav>
+      <mat-list>
+        <mat-list-item>
+          <a routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page" (click)="drawer.toggle()">
+            Home
+          </a>
+        </mat-list-item>
+        <mat-list-item>
+          <a routerLink="/about" routerLinkActive="active" ariaCurrentWhenActive="page" (click)="drawer.toggle()">
+            About
+          </a>
+        </mat-list-item>
+        <mat-list-item>Paprika</mat-list-item>
+      </mat-list>
+    </nav>
+  </mat-drawer>
+  <mat-drawer-content>
+    <h1>{{appTitle}} is running!</h1>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>

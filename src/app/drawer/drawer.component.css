@@ -1,0 +1,13 @@
+.mat-drawer-container {
+  display: flow-root;
+  height: 100%;
+}
+
+.mat-drawer .mat-mdc-list-item a {
+  text-decoration: none;
+}
+
+.mat-drawer-content {
+  display: flex;
+  flex-direction: column;
+}
