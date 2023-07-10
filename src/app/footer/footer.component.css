@@ -1,0 +1,11 @@
+.mat-toolbar {
+  position: relative;
+  z-index: 1;
+}
+
+.button-icon {
+  display: inherit;
+  cursor: pointer;
+  padding: 12px;
+  color: #fff;
+}

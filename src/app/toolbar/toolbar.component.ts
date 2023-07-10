@@ -23,11 +23,6 @@ export class ToolbarComponent {
     this.toggle.emit();
   }
 
-  ngOnInit() {
-
-    console.log('app-toolbar ngOnInit', this.title);
-  }
-
   ngAfterViewInit(): void {
     this.toolbarService.getObserverTitle().subscribe(title => {
       this.title = title;

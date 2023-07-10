@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { DrawerComponent } from './drawer/drawer.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [AppComponent, NotfoundComponent],
@@ -12,7 +13,8 @@ import { NotfoundComponent } from './notfound/notfound.component';
     BrowserModule,
     BrowserAnimationsModule,
     ToolbarComponent,
-    DrawerComponent
+    DrawerComponent,
+    FooterComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
